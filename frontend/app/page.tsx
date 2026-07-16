@@ -128,7 +128,7 @@ interface OrchestrationResult {
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const BACKEND = "https://girlcodehackathon.onrender.com/";
+const BACKEND = "https://ada-hackathon-6t2h.onrender.com";
 
 const WAREHOUSE = { lat: 12.9716, lng: 77.5946, name: "ADA Central Warehouse" };
 
