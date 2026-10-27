@@ -20,3 +20,6 @@ body { background: #020c18; color: #c8d8e8; font-family: 'Inter', sans-serif; }
 .card { background:#060f1e; border:1px solid #0e2040; border-radius:10px; }
 .row-hover:hover { background:#0a1828 !important; }
 .chip:hover { color:#38bdf8 !important; border-color:#38bdf822 !important; }
+.dark-tiles {
+  filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9) saturate(0.6);
+}
