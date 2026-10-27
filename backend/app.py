@@ -37,7 +37,7 @@ def get_client(debate=False):
     return Groq(api_key=key)
 
 def get_model():
-    return os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+    return os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
 
 
 # ─────────────────────────────────────────────
