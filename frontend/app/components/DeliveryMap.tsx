@@ -580,9 +580,8 @@ export default function DeliveryMap({
       mapInstanceRef.current = map;
 
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      className: "dark-tiles",
-      attribution: "&copy; OpenStreetMap contributors",
+        maxZoom: 19,
+        className: "dark-tiles",
       }).addTo(map);
 
       // Warehouse marker
