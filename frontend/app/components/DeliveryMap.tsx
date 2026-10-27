@@ -580,7 +580,7 @@ export default function DeliveryMap({
       mapInstanceRef.current = map;
 
       L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-        maxZoom: 19,
+      maxZoom: 19,
       }).addTo(map);
 
       // Warehouse marker
